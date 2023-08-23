@@ -2,7 +2,7 @@
     <img  width="50%" src="images/example.gif">
 </div>
 
->Quickly start or stop Quest Link on Meta devices via Unity
+<h2 align="center">Quickly start or stop Quest Link on Meta devices via Unity</h2>
 
 ### Installation
 
