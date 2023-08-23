@@ -1,8 +1,8 @@
-## Quickly start or stop Quest Link on Meta devices via Unity
-
 <div align="center">
     <img  width="50%" src="images/example.gif">
 </div>
+
+>Quickly start or stop Quest Link on Meta devices via Unity
 
 ### Installation
 
