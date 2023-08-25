@@ -20,8 +20,7 @@ namespace QuestLinkAutomation
         /// </summary>
         public static void StartQuestLink()
         {
-            //TODO
-            ExecuteCommandSync("adb shell");
+            ExecuteCommandSync("adb shell am start -S com.oculus.xrstreamingclient/.MainActivity");
         }
 
         /// <summary>
@@ -29,8 +28,7 @@ namespace QuestLinkAutomation
         /// </summary>
         public static void StopQuestLink()
         {
-            //TODO
-            ExecuteCommandSync("adb shell");
+            ExecuteCommandSync("adb shell am force-stop com.oculus.xrstreamingclient");
         }
 
         private static void ExecuteCommandSync(object command, Action<string> callback = null)
